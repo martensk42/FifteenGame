@@ -1,0 +1,36 @@
+/*	Kyle Martens
+	section AF
+	homework 8
+	
+	This is the css style sheet for the fifteen puzzle game. It uses a the hover pseudo-class to
+	change the color of the text and border color of the boxes next to the empty box*/
+
+body {
+	text-align: center;
+	font-size: 14pt;
+	font-family: cursive;
+}
+
+#puzzlearea {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#puzzlearea div {
+	background-image: url("background.jpg");
+	background-size: 400px 400px;
+	font-size: 40pt;
+	border: 5px solid black;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+}
+
+#puzzlearea .neighbor:hover {
+	border-color: red;
+	color: red;
+	cursor: pointer;
+}
