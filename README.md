@@ -1,0 +1,1 @@
+This project is a version of the 15 tiles game built in javascript. The javascript on the backend is responsible for dynamically changing the DOM as the user plays the game.
